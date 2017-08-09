@@ -57,6 +57,21 @@
     ./silex up
     ./silex install
 
+Для запуска необходимо выдать права файлу silex
+
+        chmod +x silex
+
+Затем:
+
+        ./silex set-env dev
+        ./silex up
+        ./silex install
+
+Если не создалась табличка в БД то можно вручную залить дамп через adminer по адресу [http://localhost:7772](http://localhost:7772)
+
+Дамп Базы лежит тут https://github.com/maxim-avramenko/silex/blob/master/docker/source/mariadb/db_dump/db_yupe/db_silex.sql
+
+
 Помощь
 ------
 Документация
