@@ -48,7 +48,7 @@
     
     ./init.dev.sh
     
-Скрипт создает dev окружение, скачивает и запускает Ышдуч на [http://localhost:7771](http://localhost:7771)
+Скрипт создает dev окружение, скачивает и запускает fabpot/silex-skeleton  на [http://localhost:7771](http://localhost:7771)
 
 ./init.dev.sh
 
