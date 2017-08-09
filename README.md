@@ -40,9 +40,9 @@
     create            - create application in ./app directory
     install           - composer install
     update            - composer update
-    ====================================================================================================
+    ===============================================================================================================
     Для определения в каком окружении должно работать приложение выполните: './silex set-env [ dev | prod | test ]'
-    ====================================================================================================
+    ===============================================================================================================
     
 Для Быстрого старта выполните команду:
     
@@ -54,7 +54,7 @@
 
     #!/usr/bin/env bash
     ./silex set-env dev
-    ./silex up
+    ./silex start
     ./silex install
 
 Для запуска необходимо выдать права файлу silex
@@ -64,7 +64,7 @@
 Затем:
 
         ./silex set-env dev
-        ./silex up
+        ./silex start
         ./silex install
 
 Если не создалась табличка в БД то можно вручную залить дамп через adminer по адресу [http://localhost:7772](http://localhost:7772)
@@ -77,5 +77,4 @@
 Документация
 - [Docker](https://docs.docker.com/)
 - [docker-compose](https://docs.docker.com/compose/overview/)
-- [Yupe](https://docs.yupe.ru/)
 - [Git-bash for Windows users](https://git-for-windows.github.io/)
